@@ -13,8 +13,8 @@ $(document).ready(function() {
     var loss=0;
     
     function initialize() {
-        targetNumber=Math.floor(Math.random()*101)+19;
-        // reset counter
+        targetNumber=Math.floor(Math.random()*150)+19;
+        // reset counter with this
         score=0;
         var crystal=[$(".red"), $(".blue"), $(".yellow"), $(".green")];
         var button=[redBtn, blueBtn, yellowBtn, greenBtn];
